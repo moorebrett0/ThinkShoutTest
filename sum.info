@@ -1,0 +1,5 @@
+name = Sum Module
+description = Enter 2 numbers into a form to find the sum!
+packages = Brett's ThinkShout Modules
+core = 7.x
+files[] = sum.module
