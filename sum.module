@@ -47,3 +47,7 @@ function sum_form_submit($form, &$form_state) {
 
   $form_state['redirect'] = 'success';
 }
+function sum_success() {
+  $answer = $_SESSION['sum_output'];
+  return 'You calculated a sum!!!! The answer is: ' . $answer;
+}
